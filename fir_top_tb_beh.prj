@@ -1,0 +1,6 @@
+verilog work "fix_mult.v"
+verilog work "ipcore_dir/input_rom.v"
+verilog work "fir.v"
+verilog work "fir_top.v"
+verilog work "fir_top_tb.v"
+verilog work "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

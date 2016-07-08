@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1818" delta="unknown" >"C:/Users/SUTD/codes/FIR_LP_Filter/fir_top_tb.v" Line 72: Invalid size of integer constant literal
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="97" delta="unknown" >"C:/Users/SUTD/codes/FIR_LP_Filter/fir.v" Line 35: <arg fmt="%s" index="1">out</arg> was previously declared with a different range
+</msg>
+
+</messages>
+

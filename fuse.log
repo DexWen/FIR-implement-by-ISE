@@ -1,0 +1,31 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o C:/Users/SUTD/codes/FIR_LP_Filter/fir_top_tb_isim_beh.exe -prj C:/Users/SUTD/codes/FIR_LP_Filter/fir_top_tb_beh.prj work.fir_top_tb work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/SUTD/codes/FIR_LP_Filter/fix_mult.v" into library work
+Analyzing Verilog file "C:/Users/SUTD/codes/FIR_LP_Filter/ipcore_dir/input_rom.v" into library work
+Analyzing Verilog file "C:/Users/SUTD/codes/FIR_LP_Filter/fir.v" into library work
+Analyzing Verilog file "C:/Users/SUTD/codes/FIR_LP_Filter/fir_top.v" into library work
+Analyzing Verilog file "C:/Users/SUTD/codes/FIR_LP_Filter/fir_top_tb.v" into library work
+WARNING:HDLCompiler:1818 - "C:/Users/SUTD/codes/FIR_LP_Filter/fir_top_tb.v" Line 72: Invalid size of integer constant literal
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:97 - "C:/Users/SUTD/codes/FIR_LP_Filter/fir.v" Line 35: out was previously declared with a different range
+Completed static elaboration
+Compiling module BLK_MEM_GEN_V7_3_output_stage(C_...
+Compiling module BLK_MEM_GEN_V7_3_softecc_output_...
+Compiling module BLK_MEM_GEN_V7_3_mem_module(C_CO...
+Compiling module BLK_MEM_GEN_V7_3(C_FAMILY="virte...
+Compiling module input_rom
+Compiling module fix_mult
+Compiling module fir
+Compiling module fir_top
+Compiling module fir_top_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 10 Verilog Units
+Built simulation executable C:/Users/SUTD/codes/FIR_LP_Filter/fir_top_tb_isim_beh.exe
+Fuse Memory Usage: 33036 KB
+Fuse CPU Usage: 326 ms

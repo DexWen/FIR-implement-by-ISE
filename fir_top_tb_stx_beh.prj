@@ -1,0 +1,5 @@
+verilog isim_temp "fix_mult.v"
+verilog isim_temp "fir.v"
+verilog isim_temp "fir_top.v"
+verilog isim_temp "fir_top_tb.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

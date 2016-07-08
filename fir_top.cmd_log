@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/SUTD/codes/FIR_LP_Filter/fir_top.xst" -ofn "C:/Users/SUTD/codes/FIR_LP_Filter/fir_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc7vx485t-ffg1761-2 fir_top.ngc fir_top.ngd  
+map -intstyle ise -p xc7vx485t-ffg1761-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o fir_top_map.ncd fir_top.ngd fir_top.pcf 
+par -w -intstyle ise -ol high -mt off fir_top_map.ncd fir_top.ncd fir_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml fir_top.twx fir_top.ncd -o fir_top.twr fir_top.pcf 

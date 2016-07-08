@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/SUTD/codes/FIR_LP_Filter/fir_top_tb_isim_beh.exe" -prj "C:/Users/SUTD/codes/FIR_LP_Filter/fir_top_tb_beh.prj" "work.fir_top_tb" "work.glbl" 
